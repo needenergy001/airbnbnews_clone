@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+  <title>Airbnb</title>
+
+     <!-- add icon link -->
+     <link rel = "icon" href = "images/logo.png"type = "image/x-icon"> 
+</head>
+
+<body>
+  <div class="container-fluid ">
+    <nav class="navbar navbar-expand-md py-0 border-top w-100 news-nav " id="navbar">
+      <!-- nav for xl screens -->
+      <div class="d-sm-none d-md-flex flex-grow-1 pt-2" id="xlNavbar">
+        <a class="navbar-brand header_img" href="#"></a>
+        <a class="nav-link text-dark header-title" href="#">News</a>
+
+        <div class="navbar-nav ml-auto navListItem">
+          <a class="nav-item nav-link py-0 px-2 text-dark" href="#">
+            <div class="px-2">About Us</div>
+          </a>
+          <a class="nav-item nav-link py-0 px-2 text-dark" href="#">
+            <div class="px-2">Media Assets</div>
+          </a>
+          <a class="nav-item nav-link py-0 px-2 text-dark" href="#">
+            <div class="px-2">Contact</div>
+          </a>
+          <div class="dropdown">
+            <button class="btn btn-language dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span> <i class="fas fa-globe"></i></span>
+            </button>
+            <div class="dropdown-menu dropdown-language" aria-labelledby="dropdownMenuButton">
+              <div class="dropdown-item-english px-4">
+                <a class="english" href=""><strong>English</strong></a>        
+              </div>  
+              <div class="english-list mx-4">
+                <a class="dropdown-item" href="">AU and NZ</a>
+                <a class="dropdown-item" href="">India</a>
+                <a class="dropdown-item" href="">Malaysia</a>
+                <a class="dropdown-item" href="">United Kingdom</a>
+              </div> 
+              <div class="multi-list">
+                <a class="dropdown-item" href="#">Deutsch</a>
+                <a class="dropdown-item" href="">Español (América Latina)</a>
+                <a class="dropdown-item" href="">Español (España)</a>
+                <a class="dropdown-item" href="">Français</a>
+                <a class="dropdown-item" href="">Italiano</a>
+                <a class="dropdown-item" href="">Português (Brasil)</a>
+                <a class="dropdown-item" href="">Português (Portugal)</a>
+                <a class="dropdown-item" href="">简体中文</a>
+                <a class="dropdown-item" href="">繁體中文 (香港)</a>
+                <a class="dropdown-item" href="">繁體中文 (台灣)</a>
+                <a class="dropdown-item" href="">日本語</a>
+                <a class="dropdown-item" href="">한국어</a>
+                <a class="dropdown-item" href="">ไทย</a>               
+              </div>     
+            </div>
+          </div>
+          <a class="nav-item nav-link py-0 px-2 text-dark" href="#">
+            <div class="px-2"> <i class="fas fa-search pr-1"></i>Search</div>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+   <!--Navbar sm screen-->
+  <div class="container-fluid d-md-none d-lg-none nav-small-wraper">
+    <nav class="navbar">
+      <!-- Navbar brand -->
+      <div class="d-md-none d-lg-none d-sm-flex flex-grow-1 pt-2" id="xlNavbar">
+        <a class="navbar-brand header_img" href="#"></a>
+        <a class="nav-link text-dark header-title" href="#">News</a>
+      </div>
+  
+      <!-- Collapse button -->
+      <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+        aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
+  
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+  
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <!-- Links -->
+  
+      </div>
+      <!-- Collapsible content -->
+  
+    </nav>
+  
+  </div>
+
+ 
+<!--newest news-->
+
+  <hr class="line mt-1">
+
+  <div class="container-fluid header-box">
+    <div class="row box-header mb-4 ">
+      <div class="col-md-8 col-sm-12">
+        <a href="#"><img src="./images/headerv2.JPG" class="img-fluid logo-img" alt="Responsive image"></a>
+      </div>
+      <div class="col-12 col-md-4 text-first">
+        <p class="date-head">October 27, 2020</p>
+        <h3 class="title">Jaden Smith on Fostering Dialogue at Holiday Gatherings this Season</h4>
+        <p class="text-headline text-secondary">The musician and activist is hosting an Airbnb Online Experience, helping families come together through private, virtual activities this holiday season.</p>        
+      </div>
+    </div>
+  
+  <!--news-->
+    <div class="pt-3 pt-lg-4 pt-xl-5 headings">
+      <h2 class="title title-latest">Latest News</h2>
+    </div>
+    <div class="row news-boxes flex-nowrap ">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-12 bootCols">
+          <div class="row news-row">
+            <div class="col-md-12 col-6 box-latest mb-3 " style="background-image: url('./images/AIRBNB_BalticSea.jpeg')"></div>
+            <div class="col-md-12 col-6 article-text ">
+              <p class="date">November 6, 2020</p>
+              <p class=text-social><a href="#" class="title-social ">New Insights Into How Guests Are Using Airbnb for Longer-Term Stays</a></p>
+              <p class="summary d-sm-none">Airbnb has uncovered findings from booking data and a global survey with guests who
+                booked longer-term stays with Airbnb in the last three months.</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-sm-4 col-12 bootCols">
+          <div class="row news-row">
+            <div class="col-md-12 col-6 box-latest mb-3" style="background-image: url('./images/Travel-Reimagined-KV.jpg')"></div>
+            <div class="col-md-12 col-6 article-text ">
+              <p class="date">November 3, 2020</p>
+              <p  class=text-social><a href="#" class="title-social">Living and Working Anywhere Across Asia Pacific</a></p>
+              <p class="summary d-sm-none">At the Travel Reimagined: an APEC and Airbnb Tourism Forum, Airbnb released new data
+                highlighting how 2020 has seen significant changes in how people want to work, travel and live.</p>
+            </div>
+          </div>     
+        </div>
+  
+        <div class="col-lg-3 col-sm-4 col-12 bootCols">
+          <div class="row news-row">
+            <div class="col-md-12 col-6 box-latest mb-3" style="background-image: url('./images/skylinetrail.tif_.jpg')"></div>
+            <div class="col-md-12 col-6 article-text ">
+              <p class="date">November 2, 2020</p>
+              <p class=text-social><a href="#" class="title-social">Tourism Nova Scotia Partners with Airbnb to Promote Safe Tourism</a></p>
+              <p class="summary d-sm-none">Tourism Nova Scotia and Airbnb are partnering together to promote safe and healthy
+                tourism
+                and experiences within the Province.</p>
+            </div>
+          </div>
+        </div>  
+
+        <div class="col-lg-3 col-12 social-over-wrap">
+          <div class="col-12 bootCols social-wrapper">
+            <div class="row news-row social-wrapper-follows ">
+              <div class="col-lg-12 col-9 follow-us">
+                <h4> Follow Us</h4>
+                <p>Get the latest news and travel inspiration.</p>
+                <a href=# class="social-icon"><i class="fab fa-twitter social-iconv1 "></i></a>
+                <a href=# class="social-icon"><i class="fab fa-instagram social-iconv1 "></i></a>
+                <a href=# class="social-icon"><i class="fab fa-linkedin social-iconv1"></i></a>
+                <a href=# class="social-icon"><i class="fab fa-facebook-f social-iconv1"></i></a>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+      </div>
+        
+            
+    </div>
+    <hr class="d-sm-none" />
+    <div class="row mb-4">
+      <div class="col-12 ">
+        <h1 class="title">Categories</h1>
+        <button class="btn mb-5 mr-3 title-social btn-catagories btn-all">All</button>
+        <button class="btn mb-5 mr-3 title-social btn-catagories">Company</button>
+        <button class="btn mb-5 mr-3 title-social btn-catagories">Stay</button>
+        <button class="btn mb-5 mr-3 title-social btn-catagories">Experience</button>
+        <button class="btn mb-5 mr-3 title-social btn-catagories">Open Homes</button>
+        <button class="btn mb-5 mr-3 title-social btn-catagories">Policy</button>
+        <button class="btn mb-5 mr-3 title-social btn-catagories">Community</button>
+      </div>
+      <div class="col-12 col-md-4 px-1">
+        <div class="box-latest box-categories mb-4 " style="background-image: url('./images/host.jpg')"></div>
+        <p class="date">October 30, 2020</p>
+        <p><a href="#" class="title-social title-catagories">Updating our Terms of Service and Privacy Policy</a></p>
+        <p class="summary">We’re updating our Terms of Service, Payments Terms of Service, and Privacy Policy.</p>
+      </div>
+      <div class="col-12 col-md-4 px-1">
+        <div class="box-latest mb-4 box-categories " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')">
+        </div>
+        <p class="date">October 30, 2020</p>
+        <p><a href="#" class="title-social title-catagories">An Important Announcement from Airbnb</a></h2>
+        <p class="summary">Earlier today, Airbnb Co-Founder and CEO Brian Chesky sent the following note to the Airbnb
+          host community.</p>
+      </div>
+      <div class="col-12 col-md-4 px-1">
+        <div class="box-latest mb-4 box-categories" style="background-image: url('./images/Airbnb_Logo_pink.jpeg')">
+        </div>
+        <p class="date">October 23, 2020</p>
+        <p><a href="#" class="title-social title-catagories">An Update on Trust</a></h2>
+        <p class="summary">Tara Bunch shares an update on Airbnb’s progress in key areas to strengthen trust on the
+          platform: Supporting our community, working with community stakeholders, curtailing large gatherings, and
+          verification.</p>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+        <div class="box-latest mb-3 " style="background-image: url('./images/STB.jpeg')"></div>
+        <p class="mb-1"><a href="#" class="title-social">Partnering with the Singapore Tourism Board to Promote Tourism
+            Recovery</a></p>
+        <p class="date">October 21, 2020</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+        <div class="box-latest mb-3 " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')"></div>
+        <p class="mb-1"><a href="#" class="title-social">Designing the Future of Airbnb</a></p>
+        <p class="date">October 21, 2020</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+        <div class="box-latest mb-3 " style="background-image: url('./images/Dadiri-Bedroom.jpeg')"></div>
+        <p class="mb-1"><a href="#" class="title-social">Nomadic Matt's How-To Guide for Becoming a Digital Nomad</a>
+        </p>
+        <p class="date">October 21, 2020</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+        <div class="box-latest mb-3 " style="background-image: url('./images/header-2000px.jpeg')"></div>
+        <p class="mb-1"><a href="#" class="title-social">New Insights Into How Guests Are Using Airbnb for Longer-Term
+            Stays</a></p>
+        <p class="date">October 21, 2020</p>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+        <div class="box-latest mb-3 " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')"></div>
+        <p class="mb-1"><a href="#" class="title-social">New Features to Help Hosts Prevent Unauthorized Parties</a></p>
+        <p class="date">October 20, 2020</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+        <div class="box-latest mb-3 " style="background-image: url('./images/Sangria.jpeg')"></div>
+        <p class="mb-1"><a href="#" class="title-social">Missing Your Co-Workers? 10 Online Experiences to Beat the WFH
+            Blues</a></p>
+        <p class="date">October 20, 2020</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+        <div class="box-latest mb-3 " style="background-image: url('./images/airbnb_header-1.jpg')"></div>
+        <p class="mb-1"><a href="#" class="title-social">How Airbnb and Travelers are Redefining Travel in 2021s</a></p>
+        <p class="date">October 15, 2020</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+        <div class="box-latest mb-3 " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')"></div>
+        <p class="mb-1"><a href="#" class="title-social">Airbnb Announces Progress on Efforts to Stop Parties and Large
+            Gatherings</a></p>
+        <p class="date">October 8, 2020</p>
+      </div>
+    </div>
+
+    <button class="btn btn-more mb-5 title-social">More</button>
+  </div>
+  </div>
+  <hr class="line-footer" />
+
+  <footer class="footer-bg">
+    <!-- Footer -->
+    <div class="row container-fluid pt-5  d-md-flex footerNav">
+      <div class="col-lg-3 footer-grid ">
+        <h5 class="mb-3"><strong>ABOUT</strong></h5>
+        <ul class="list-unstyled list-footer mb-1 flex text-left">
+            <li class="pb-2"><a href="#" class="text-dark">How Airbnb works</a></li>
+            <li class="pb-2"><a href="#" class="text-dark">Newsroom</a></li>
+            <li class="pb-2"><a href="#" class="text-dark">Airbnb Plus</a></li>        
+            <li class="pb-2"><a href="#" class="text-dark">Airbnb Luxe</a></li>
+            <li class="pb-2"><a href="#" class="text-dark">HotelTonight</a></li>
+            <li class="pb-2"><a href="#" class="text-dark">Airbnb for Work</a></li>          
+            <li class="pb-2"><a href="#" class="text-dark">Olympics</a></li>
+            <li class="pb-2"><a href="#" class="text-dark">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h5 class="mb-3"><strong>COMMUNITY</strong></h5>
+        <ul class="list-unstyled mb-2 text-left list-footer">
+          <li class="pb-2"><a href="#" class="text-dark">Diversity & Belonging</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Against Discrimination</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Accessibility</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Airbnb Associates</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Frontline Stays</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Invite friends</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Gift cards</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h5 class="mb-3"><strong>HOSTING</strong></h5>
+        <ul class="list-unstyled mb-2 text-left list-footer">
+          <li class="pb-2"><a href="#" class="text-dark">Host an Online Experience</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Host an Experience</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Message from CEO Brian Chesky</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Responsible Hosting</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Open Homes</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Resource Center</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Community Center</a></li>
+
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h5 class="mb-3"><strong>SUPPORT</strong></h5>
+        <ul class="list-unstyled mb-2 text-left list-footer">
+          <li class="pb-2"><a href="#" class="text-dark">Updates for COVID-19</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Help Center</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Cancellation options</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Neighborhood Support</a></li>
+          <li class="pb-2"><a href="#" class="text-dark">Trust & Safety</a></li>
+        </ul>
+      </div>
+
+      <!--disclaimer-->
+      <div class="col-lg-6 mt-4 text-left">
+        <h5 class="mb-3"><strong>DISCLAIMER</strong></h5>
+        <p class="discalimer">The Airbnb Newsroom is aimed at journalists.
+          All Homes and Experiences referenced on the Airbnb Newsroom are intended
+          purely to inspire and illustrate. Airbnb does not recommend or endorse specific Home or Experience listings on
+          the Airbnb platform.</p>
+      </div>
+
+      <div class="col-12">
+        <hr />
+      </div>
+
+      <!--all right reserved-->
+
+        <div class="row pl-3 pr-2 site-footer-bar2">
+          <!----policy part-->
+          <div class="mt-8 mb-3 justify-content-between align-items-center footerBar">
+            <span class="text-dark footerBar-left">© 2020 Airbnb, Inc. All rights reserved</span>
+            <div class="site-footer">
+              <ul class="text-dark footer-privacy">       
+                <li><i class="fas fa-circle dotted-site"></i></li>
+                <li><a href="#">Privacy</a></li>
+                <li><i class="fas fa-circle dotted-site"></i></li>
+                <li><a href="#">Terms</a></li>
+                <li><i class="fas fa-circle dotted-site"></i></li>
+                <li><a href="#">Sitemap</a></li>
+              </ul>
+            </div>
+          </div> 
+          <!---empty col-->
+          <div class="col-md-auto"></div>
+          <!--social media-->
+          <div class="col-4 mt-2 mb-3 text-right justify-content-between align-items-center social-box pr-2 ">
+            <a href=# class="social-icon "><i class="fab fa-twitter social-iconv1 social-footer "></i></a>
+            <a href=# class="social-icon "><i class="fab fa-instagram social-iconv1 social-footer "></i></a>
+            <a href=# class="social-icon "><i class="fab fa-linkedin social-iconv1 social-footer"></i></a>
+            <a href=# class="social-icon social-footer"><i class="fab fa-facebook-f social-iconv1 social-footer"></i></a>
+          </div>
+        </div>        
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
