@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <div class="container-fluid ">
+  <div class="container-fluid wrapper-main ">
     <nav class="navbar navbar-expand-md py-0 border-top w-100 news-nav " id="navbar">
       <!-- nav for xl screens -->
       <div class="d-sm-none d-md-flex flex-grow-1 pt-2" id="xlNavbar">
@@ -125,10 +125,10 @@
 
   <div class="container-fluid header-box">
     <div class="row box-header mb-4 ">
-      <div class="col-md-8 col-sm-12">
+      <div class="col-lg-8 col-md-6 col-12">
         <a href="#"><img src="./images/headerv2.JPG" class="img-fluid logo-img" alt="Responsive image"></a>
       </div>
-      <div class="col-12 col-md-4 text-first">
+      <div class="col-lg-4 col-md-6 col-12 text-first">
         <p class="date-head">October 27, 2020</p>
         <h3 class="title">Jaden Smith on Fostering Dialogue at Holiday Gatherings this Season</h4>
         <p class="text-headline text-secondary">The musician and activist is hosting an Airbnb Online Experience, helping families come together through private, virtual activities this holiday season.</p>        
@@ -139,6 +139,7 @@
     <div class="pt-3 pt-lg-4 pt-xl-5 headings">
       <h2 class="title title-latest">Latest News</h2>
     </div>
+
     <div class="row news-boxes flex-nowrap ">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-12 bootCols">
@@ -147,13 +148,13 @@
             <div class="col-md-12 col-6 article-text ">
               <p class="date">November 6, 2020</p>
               <p class=text-social><a href="#" class="title-social ">New Insights Into How Guests Are Using Airbnb for Longer-Term Stays</a></p>
-              <p class="summary d-sm-none">Airbnb has uncovered findings from booking data and a global survey with guests who
+              <p class="summary  d-none d-lg-block ">Airbnb has uncovered findings from booking data and a global survey with guests who
                 booked longer-term stays with Airbnb in the last three months.</p>
             </div>
           </div>
         </div>
-  
-        <div class="col-lg-3 col-sm-4 col-12 bootCols">
+          
+        <div class="col-lg-3 col-md-4 col-12 bootCols">
           <div class="row news-row">
             <div class="col-md-12 col-6 box-latest mb-3" style="background-image: url('./images/Travel-Reimagined-KV.jpg')"></div>
             <div class="col-md-12 col-6 article-text ">
@@ -165,7 +166,7 @@
           </div>     
         </div>
   
-        <div class="col-lg-3 col-sm-4 col-12 bootCols">
+        <div class="col-lg-3 col-md-4 col-12 bootCols">
           <div class="row news-row">
             <div class="col-md-12 col-6 box-latest mb-3" style="background-image: url('./images/skylinetrail.tif_.jpg')"></div>
             <div class="col-md-12 col-6 article-text ">
@@ -198,84 +199,142 @@
             
     </div>
     <hr class="d-sm-none" />
+
+    <!--button-->
     <div class="row mb-4">
-      <div class="col-12 ">
+      <div class="col-12 mb-3 categories-cover ">
         <h1 class="title">Categories</h1>
-        <button class="btn mb-5 mr-3 title-social btn-catagories btn-all">All</button>
-        <button class="btn mb-5 mr-3 title-social btn-catagories">Company</button>
-        <button class="btn mb-5 mr-3 title-social btn-catagories">Stay</button>
-        <button class="btn mb-5 mr-3 title-social btn-catagories">Experience</button>
-        <button class="btn mb-5 mr-3 title-social btn-catagories">Open Homes</button>
-        <button class="btn mb-5 mr-3 title-social btn-catagories">Policy</button>
-        <button class="btn mb-5 mr-3 title-social btn-catagories">Community</button>
+        <button class="btn mb-2 mr-3 title-social btn-catagories btn-all">All</button>
+        <button class="btn mb-2 mr-3 title-social btn-catagories">Company</button>
+        <button class="btn mb-2 mr-3 title-social btn-catagories">Stay</button>
+        <button class="btn mb-2 mr-3 title-social btn-catagories">Experience</button>
+        <button class="btn mb-2 mr-3 title-social btn-catagories">Open Homes</button>
+        <button class="btn mb-2 mr-3 title-social btn-catagories">Policy</button>
+        <button class="btn mb-2 mr-3 title-social btn-catagories">Community</button>
       </div>
-      <div class="col-12 col-md-4 px-1">
-        <div class="box-latest box-categories mb-4 " style="background-image: url('./images/host.jpg')"></div>
-        <p class="date">October 30, 2020</p>
-        <p><a href="#" class="title-social title-catagories">Updating our Terms of Service and Privacy Policy</a></p>
-        <p class="summary">We’re updating our Terms of Service, Payments Terms of Service, and Privacy Policy.</p>
+      
+      <div class="col-md-4 col-12">
+        <div class="row categories-wrap ml-0">
+          <div class="col-md-12 col-6 box-latest box-categories mb-4 " style="background-image: url('./images/host.jpg')"></div>
+          <div class="col-md-12 col-6 mx-1">
+            <p class="date">October 30, 2020</p>
+            <p><a href="#" class="title-social title-catagories">Updating our Terms of Service and Privacy Policy</a></p>
+            <p class="summary d-sm-none ">We’re updating our Terms of Service, Payments Terms of Service, and Privacy Policy.</p>
+          </div>
+        </div>     
+     </div>
+
+
+      <div class="col-12 col-md-4 ">
+        <div class="row categories-wrap mx-0">
+          <div class="col-md-12 col-6 box-latest mb-4 box-categories " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')">
+          </div>
+          <div class="col-md-12 col-6">
+            <p class="date">October 30, 2020</p>
+            <p><a href="#" class="title-social title-catagories">An Important Announcement from Airbnb</a></h2>
+            <p class="summary d-sm-none">Earlier today, Airbnb Co-Founder and CEO Brian Chesky sent the following note to the Airbnb
+              host community.</p>
+          </div>  
+        </div>    
       </div>
-      <div class="col-12 col-md-4 px-1">
-        <div class="box-latest mb-4 box-categories " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')">
-        </div>
-        <p class="date">October 30, 2020</p>
-        <p><a href="#" class="title-social title-catagories">An Important Announcement from Airbnb</a></h2>
-        <p class="summary">Earlier today, Airbnb Co-Founder and CEO Brian Chesky sent the following note to the Airbnb
-          host community.</p>
-      </div>
-      <div class="col-12 col-md-4 px-1">
-        <div class="box-latest mb-4 box-categories" style="background-image: url('./images/Airbnb_Logo_pink.jpeg')">
-        </div>
-        <p class="date">October 23, 2020</p>
-        <p><a href="#" class="title-social title-catagories">An Update on Trust</a></h2>
-        <p class="summary">Tara Bunch shares an update on Airbnb’s progress in key areas to strengthen trust on the
-          platform: Supporting our community, working with community stakeholders, curtailing large gatherings, and
-          verification.</p>
-      </div>
+
+
+      <div class="col-12 col-md-4 mx-0">
+        <div class="row categories-wrap mx-0">
+          <div class="col-md-12 col-6 box-latest mb-4 box-categories" style="background-image: url('./images/Airbnb_Logo_pink.jpeg')">
+          </div>
+          <div class="col-md-12 col-6">
+            <p class="date">October 23, 2020</p>
+            <p><a href="#" class="title-social title-catagories">An Update on Trust</a></h2>
+            <p class="summary d-sm-none">Tara Bunch shares an update on Airbnb’s progress in key areas to strengthen trust on the
+              platform: Supporting our community, working with community stakeholders, curtailing large gatherings, and
+              verification.</p>
+          </div>
+          </div>
+        </div>      
     </div>
+
+
     <div class="row mb-3">
-      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
-        <div class="box-latest mb-3 " style="background-image: url('./images/STB.jpeg')"></div>
-        <p class="mb-1"><a href="#" class="title-social">Partnering with the Singapore Tourism Board to Promote Tourism
+      <div class="col-lg-3 col-md-4 col-12 bootCols ">
+        <div class="row categories-wrap mx-0">
+        <div class="col-md-12 col-6 box-latest mb-3 " style="background-image: url('./images/STB.jpeg')"></div>
+        <div class="col-md-12 col-6">
+          <p class="mb-1"><a href="#" class="title-social">Partnering with the Singapore Tourism Board to Promote Tourism
             Recovery</a></p>
         <p class="date">October 21, 2020</p>
+        </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
-        <div class="box-latest mb-3 " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')"></div>
-        <p class="mb-1"><a href="#" class="title-social">Designing the Future of Airbnb</a></p>
-        <p class="date">October 21, 2020</p>
+     </div>
+       
+
+
+      <div class="col-lg-3 col-md-4 col-12 bootCols">
+        <div class="row categories-wrap mx-0">
+        <div class="col-md-12 col-6 box-latest mb-3 " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')"></div>
+        <div class="col-md-12 col-6">
+          <p class="mb-1"><a href="#" class="title-social">Designing the Future of Airbnb</a></p>
+          <p class="date">October 21, 2020</p>
+        </div>
+        </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
-        <div class="box-latest mb-3 " style="background-image: url('./images/Dadiri-Bedroom.jpeg')"></div>
-        <p class="mb-1"><a href="#" class="title-social">Nomadic Matt's How-To Guide for Becoming a Digital Nomad</a>
-        </p>
-        <p class="date">October 21, 2020</p>
+
+
+      <div class="col-lg-3 col-md-4 col-12 bootCols">
+        <div class="row categories-wrap mx-0">
+        <div class="col-md-12 col-6 box-latest mb-3 " style="background-image: url('./images/Dadiri-Bedroom.jpeg')"></div>
+        <div class="col-md-12 col-6">
+          <p class="mb-1"><a href="#" class="title-social">Nomadic Matt's How-To Guide for Becoming a Digital Nomad</a>
+          </p>
+          <p class="date">October 21, 2020</p>
+        </div>
+        </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
-        <div class="box-latest mb-3 " style="background-image: url('./images/header-2000px.jpeg')"></div>
-        <p class="mb-1"><a href="#" class="title-social">New Insights Into How Guests Are Using Airbnb for Longer-Term
-            Stays</a></p>
-        <p class="date">October 21, 2020</p>
+
+
+      <div class="col-lg-3 col-md-4 col-12 bootCols">
+        <div class="row categories-wrap mx-0">
+          <div class="col-md-12 col-6 box-latest mb-3 " style="background-image: url('./images/header-2000px.jpeg')"></div>
+          <div class="col-md-12 col-6">
+            <p class="mb-1"><a href="#" class="title-social">New Insights Into How Guests Are Using Airbnb for Longer-Term
+              Stays</a></p>
+          <p class="date">October 21, 2020</p>
+          </div>
+        </div>     
       </div>
-    </div>
-    <div class="row mb-4">
-      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
-        <div class="box-latest mb-3 " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')"></div>
-        <p class="mb-1"><a href="#" class="title-social">New Features to Help Hosts Prevent Unauthorized Parties</a></p>
-        <p class="date">October 20, 2020</p>
+
+
+      <div class="col-lg-3 col-md-4 col-12 bootCols">
+        <div class="row categories-wrap mx-0">
+          <div class="col-md-12 col-6 box-latest mb-3 " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')"></div>
+          <div class="col-md-12 col-6">
+            <p class="mb-1"><a href="#" class="title-social">New Features to Help Hosts Prevent Unauthorized Parties</a></p>
+            <p class="date">October 20, 2020</p>
+          </div>    
+        </div>     
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
-        <div class="box-latest mb-3 " style="background-image: url('./images/Sangria.jpeg')"></div>
-        <p class="mb-1"><a href="#" class="title-social">Missing Your Co-Workers? 10 Online Experiences to Beat the WFH
-            Blues</a></p>
-        <p class="date">October 20, 2020</p>
+
+      <div class="col-lg-3 col-md-4 col-12 bootCols">
+        <div class="row categories-wrap mx-0">
+          <div class="col-md-12 col-6 box-latest mb-3 " style="background-image: url('./images/Sangria.jpeg')"></div>
+          <div class="col-md-12 col-6">
+            <p class="mb-1"><a href="#" class="title-social">Missing Your Co-Workers? 10 Online Experiences to Beat the WFH
+              Blues</a></p>
+          <p class="date">October 20, 2020</p>
+          </div>    
+        </div>     
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+
+     
+
+      <div class="col-lg-3 col-md-4 col-xs-12 bootCols">
         <div class="box-latest mb-3 " style="background-image: url('./images/airbnb_header-1.jpg')"></div>
         <p class="mb-1"><a href="#" class="title-social">How Airbnb and Travelers are Redefining Travel in 2021s</a></p>
         <p class="date">October 15, 2020</p>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-12 bootCols">
+
+
+      <div class="col-lg-3 col-md-4 col-xs-12 bootCols">
         <div class="box-latest mb-3 " style="background-image: url('./images/Airbnb_Logo_pink.jpeg')"></div>
         <p class="mb-1"><a href="#" class="title-social">Airbnb Announces Progress on Efforts to Stop Parties and Large
             Gatherings</a></p>
@@ -285,7 +344,7 @@
 
     <button class="btn btn-more mb-5 title-social">More</button>
   </div>
-  </div>
+  
   <hr class="line-footer" />
 
   <footer class="footer-bg">
@@ -304,7 +363,10 @@
             <li class="pb-2"><a href="#" class="text-dark">Careers</a></li>
         </ul>
       </div>
-      <div class="col-lg-3">
+      <div class="col-12 d-lg-none">
+        <hr />
+      </div>
+      <div class="col-lg-3 ">
         <h5 class="mb-3"><strong>COMMUNITY</strong></h5>
         <ul class="list-unstyled mb-2 text-left list-footer">
           <li class="pb-2"><a href="#" class="text-dark">Diversity & Belonging</a></li>
@@ -316,6 +378,9 @@
           <li class="pb-2"><a href="#" class="text-dark">Gift cards</a></li>
         </ul>
       </div>
+      <div class="col-12 d-lg-none">
+        <hr />
+      </div>
       <div class="col-lg-3">
         <h5 class="mb-3"><strong>HOSTING</strong></h5>
         <ul class="list-unstyled mb-2 text-left list-footer">
@@ -326,8 +391,10 @@
           <li class="pb-2"><a href="#" class="text-dark">Open Homes</a></li>
           <li class="pb-2"><a href="#" class="text-dark">Resource Center</a></li>
           <li class="pb-2"><a href="#" class="text-dark">Community Center</a></li>
-
         </ul>
+      </div>
+      <div class="col-12 d-lg-none">
+        <hr />
       </div>
       <div class="col-lg-3">
         <h5 class="mb-3"><strong>SUPPORT</strong></h5>
@@ -339,7 +406,9 @@
           <li class="pb-2"><a href="#" class="text-dark">Trust & Safety</a></li>
         </ul>
       </div>
-
+      <div class="col-12 d-lg-none">
+        <hr />
+      </div>
       <!--disclaimer-->
       <div class="col-lg-6 mt-4 text-left">
         <h5 class="mb-3"><strong>DISCLAIMER</strong></h5>
